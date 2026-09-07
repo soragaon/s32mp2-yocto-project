@@ -11,6 +11,11 @@ The board is `stm32mp257f-dk`; its Yocto MACHINE is `stm32mp25-disco`.
 Boot uses TF-A, OP-TEE and U-Boot. The image is `st-image-headless`, derived from
 ST's `st-image-core`. The custom distribution removes graphical features.
 
+For a clean build entirely in your Ubuntu home directory, see
+[the Ubuntu build guide](README-UBUNTU.md), including dependencies and exactly
+which files to copy. It also lists [direct BitBake image commands](README-UBUNTU.md#7-direct-bitbake-commands-headless-minimal-and-graphical-images)
+for headless, minimal and Weston builds.
+
 ## Quick start and WSL 2 setup
 
 Repository name: `s32mp2-yocto-project`.
