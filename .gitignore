@@ -1,0 +1,9 @@
+/sources/
+/work/
+/artifacts/
+/logs/
+__pycache__/
+*.pyc
+/.agents/
+/.codex/
+*.bundle
